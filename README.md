@@ -17,6 +17,12 @@ A command-line interface for working with [PASETO (Platform-Agnostic Security To
 npm install -g paseto-cli
 ```
 
+or with npx:
+
+```bash
+npx paseto-cli --help
+```
+
 ## Usage
 
 ### Generate Keys
