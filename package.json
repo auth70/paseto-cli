@@ -1,0 +1,49 @@
+{
+  "name": "paseto-cli",
+  "version": "1.0.0",
+  "description": "PASETO CLI application (uses paseto-ts)",
+  "type": "module",
+  "keywords": [
+    "decrypt",
+    "encrypt",
+    "sign",
+    "verify",
+    "paseto",
+    "v4",
+    "local",
+    "public",
+    "typescript"
+  ],
+  "bin": {
+    "paseto-cli": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "watch": "tsc -w",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "homepage": "https://github.com/auth70/paseto-cli",
+  "repository": "github:auth70/paseto-cli",
+  "contributors": [
+    {
+      "name": "miunau",
+      "email": "miunau+npm@miunau.com",
+      "url": "https://miunau.com"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3",
+    "vitest": "^1.3.1"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "paseto-ts": "^2.0.5"
+  }
+}
